@@ -1,14 +1,14 @@
 ---
 title: Woodcuts
-permalink: /woodcuts
+permalink: "/woodcuts"
 section: about
 images:
-  - image_path: /assets/img/uploads/right_side_up.jpg
-    title: Apple Pie
-  - image_path: /assets/img/uploads/storm_dancers.jpg
-    title: Apple Pie
-  - image_path: /assets/img/uploads/Screen Shot 2019-11-11 at 11.12.15 AM.png
-    title:
+- image_path: "/assets/img/uploads/right_side_up.jpg"
+  title: Apple Pie
+- image_path: "/assets/img/uploads/storm_dancers.jpg"
+  title: Apple Pie
+- image_path: "/assets/img/uploads/Screen Shot 2019-11-11 at 11.12.15 AM.png"
+  title: 
 layout: home
 ---
 

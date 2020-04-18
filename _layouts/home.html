@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<svg id="fader"></svg>
+
 <div class="home-wrapper">
 
 
@@ -32,6 +34,7 @@ layout: default
   </div>
 
 <div>
+
     <!-- <section class="image-grid">
       {{ content }}
       <div>
@@ -43,10 +46,13 @@ layout: default
 
     </section> -->
 
+    <!-- <img class="image-crop-mason lazy" data-src="img/explore/congrats.jpg" data-action="zoom"> -->
+
+
     <ul class="photo-gallery">
       {% for image in page.images %}
         <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/>
-            <caption>{{ image.caption }}</caption>
+            <p class="caption">{{ image.caption }}</p>
           </li>
       {% endfor %}
     </ul>
@@ -55,3 +61,6 @@ layout: default
   </div>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="/assets/js/scripts.js"></script>

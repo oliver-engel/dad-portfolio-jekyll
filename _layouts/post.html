@@ -5,20 +5,20 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<time datetime="{{ page.date }}">
+<!-- <time datetime="{{ page.date }}">
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       by {{ author.name }}
     {% endif %}
   </small>
-</time>
+</time> -->
 
-{% include page-intro.html %}
+<!-- {% include page-intro.html %}
 
-{{ content }}
+{{ content }} -->
 
-<nav aria-label="Adjacent Posts">
+<!-- <nav aria-label="Adjacent Posts">
   <ul>
     {% if page.previous.url %}
       <li>
@@ -31,4 +31,11 @@ layout: default
       </li>
     {% endif %}
   </ul>
-</nav>
+</nav> -->
+
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>

@@ -2,22 +2,41 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<div class="home-wrapper">
 
-  {% include page-intro.html %}
 
-  {{ content }}
+  <div class="sidebar">
+    <div class="sidebar-inner">
+    <h2>{{ page.title }}</h2>
 
-  <section>
+      <!-- {% include page-intro.html %} -->
 
-    <h3>Recent posts from the blog</h3>
 
-    <ul>
-      {% for post in site.posts limit:3 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+      <section>
 
-  </section>
+        <ul>
+          {% for post in site.posts limit:3 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+      </section>
+    </div>
+  </div>
+
+<div>
+    <section class="image-grid">
+      
+      <div>
+        <img src="/assets/img/uploads/right_side_up.jpg">
+        <caption>Right Side Up, 2011</caption>
+      </div>
+
+      <img src="/assets/img/uploads/storm_dancers.jpg">
+
+    </section>
+  </div>
+
+</div>

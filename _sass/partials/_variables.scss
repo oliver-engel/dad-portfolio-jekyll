@@ -2,17 +2,20 @@
 $text-color: rgb(40,40,40);
 $text-color-negative: white;
 $brand-color: rgb(29,37,52);
-$link-color: rgb(0,114,154);
+$link-color: #5a5a5a;
 $link-hover-color: rgb(0,57,78);
 $grey-bg-color: rgb(243,243,243);
 $hairline-color: rgb(230,230,230);
 $selection-bg-color: rgba(255,255,100,0.5);
 
 // typographic defaults
-$base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
+// $base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
+$base-font: "Marr Sans";
+$bold-font: "Roswell Four ITC Std";
+
 $code-font: Courier, monospace;
-$base-font-size: 62.5%;
-$base-font-weight: 300;
+$base-font-size: 50%;
+$base-font-weight: 400;
 $bold-font-weight: 600;
 $base-line-height: 1.5;
 

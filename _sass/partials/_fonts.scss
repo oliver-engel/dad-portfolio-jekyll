@@ -1,1 +1,34 @@
 // add font-face or font import declarations here
+@font-face {
+    font-family: 'Fakt Pro';
+    src: url('/assets/fonts/FaktPro-Normal.woff2') format('woff2'),
+        url('/assets/fonts/FaktPro-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marr Sans';
+    src: url('/assets/fonts/MarrSans.woff2') format('woff2'),
+        url('/assets/fonts/MarrSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+// @font-face {
+//     font-family: 'Fakt Pro';
+//     src: url('/assets/fonts/FaktPro-Bold.woff2') format('woff2'),
+//         url('/assets/fonts/FaktPro-Bold.woff') format('woff');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Roswell Four ITC Std';
+    src: url('/assets/fonts/RoswellFourITCStd.woff2') format('woff2'),
+        url('/assets/fonts/RoswellFourITCStd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

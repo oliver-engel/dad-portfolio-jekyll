@@ -6,14 +6,51 @@
 // necessary. https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks
 
 // the body element is our primary layout grid
-body {
-  height: 100vh;
+
+.home-wrapper{
   display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns:
-    [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 52rem) [main-end]
-    minmax(1rem, 1fr) [full-end];
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 25px;
+  padding:50px;
+}
+
+.sidebar{
+
+}
+
+.sidebar-inner{
+  position: fixed;
+  align-self: end;
+  top:40vh;
+}
+
+.image-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 100px;
+
+}
+
+.image-grid > img {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+body {
+
+  height: 100vh;
+  // display: grid;
+  // grid-template-rows: auto 1fr auto;
+  // grid-template-columns: 1fr auto;
 }
 
 // by default, make any new children of body to span the full track
@@ -86,6 +123,10 @@ header > nav {
         color: white;
       }
     }
+  }
+
+  ul:last-child{
+    padding-top:25px;
   }
 }
 

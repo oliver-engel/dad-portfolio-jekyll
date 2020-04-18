@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about"
-layout: page
+layout: home
 section: about
 intro_paragraph: |
   This is an example of a standard Jekyll page. You can edit it with Netlify

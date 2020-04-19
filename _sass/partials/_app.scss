@@ -28,6 +28,10 @@
   position: fixed;
   align-self: end;
   top:37vh;
+
+  @media screen and (max-width: $screen-md-min) {
+    position:inherit;
+  }
 }
 
 .photo-gallery{

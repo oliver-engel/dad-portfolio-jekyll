@@ -18,4 +18,3 @@ images:
   caption: Abstract Wood Cut Caption
 ---
 
-fd

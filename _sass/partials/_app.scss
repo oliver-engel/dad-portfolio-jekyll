@@ -36,6 +36,10 @@
 
 }
 
+a:active{
+  color:red;
+}
+
 .caption{
   color:gray;
 }
@@ -190,7 +194,7 @@ main {
   margin-left: auto;
   grid-column: main;
   display: grid;
-  padding-top: 8rem;
+  padding-top: 5rem;
   padding-bottom: 8rem;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;

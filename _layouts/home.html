@@ -2,69 +2,28 @@
 layout: default
 ---
 
-<svg id="fader"></svg>
 
 <div class="home-wrapper">
 
 
   <div class="sidebar">
     <div class="sidebar-inner">
-    <h2>Mark Engel</h2>
+      <h2>Mark Engel</h2>
 
-      <!-- {% include page-intro.html %} -->
+      {% include nav.html %}
 
-
-      <section>
-
-        <ul>
-          <li>
-            <a href="index">Featured</a>
-          </li>
-            <li>
-              <a href="woodcuts">Woodcuts</a>
-            </li>
-            <li>
-              <a href="paintings">Paintings</a>
-            </li>
-            <li style="padding-top:35px">
-              <a href="about">Info</a>
-            </li>
-
-        </ul>
-
-      </section>
     </div>
   </div>
 
-<div>
-  {{ content }}
-
-    <!-- <section class="image-grid">
-      {{ content }}
-      <div>
-        <img src="/assets/img/uploads/right_side_up.jpg">
-        <caption>Right Side Up, 2011</caption>
-      </div>
-
-      <img src="/assets/img/uploads/storm_dancers.jpg">
-
-    </section> -->
-
-    <!-- <img class="image-crop-mason lazy" data-src="img/explore/congrats.jpg" data-action="zoom"> -->
+  <div>
+    <!-- <div class="info">
+      <div>{{ content }}</div>
+      <div></div>
+    </div> -->
 
 
-    <ul class="photo-gallery">
-      {% for image in page.images %}
-        <li><img src="{{ image.image_path }}" data-action="zoom" alt="{{ image.title}}"/>
-            <p class="caption">{{ image.caption }}</p>
-          </li>
-      {% endfor %}
-    </ul>
+    {% include gallery.html %}
 
 
   </div>
-
 </div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="/assets/js/scripts.js"></script>

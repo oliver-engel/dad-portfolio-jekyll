@@ -7,6 +7,12 @@ function fadeInPage() {
 document.addEventListener('DOMContentLoaded', function() {
   fadeInPage();
 
+  $("[href]").each(function() {
+        if (this.href == window.location.href) {
+            $(this).addClass("active");
+        }
+    });
+
   if (!window.AnimationEvent) { return; }
   var anchors = document.getElementsByTagName('a');
 

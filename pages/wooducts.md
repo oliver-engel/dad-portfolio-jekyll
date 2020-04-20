@@ -7,5 +7,8 @@ images:
 - image_path: "/assets/img/uploads/abstract.jpg"
   title: Abstract Wood Cut
   caption: Abstract Wood Cut Caption
+- image_path: "/uploads/above-the-horizon-1.jpg"
+  title: 
+  caption: Test caption
 ---
 

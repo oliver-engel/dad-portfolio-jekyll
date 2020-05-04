@@ -1,13 +1,5 @@
 // add font-face or font import declarations here
 @font-face {
-    font-family: 'Fakt Pro';
-    src: url('/assets/fonts/FaktPro-Normal.woff2') format('woff2'),
-        url('/assets/fonts/FaktPro-Normal.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Marr Sans';
     src: url('/assets/fonts/MarrSans.woff2') format('woff2'),
         url('/assets/fonts/MarrSans.woff') format('woff');
@@ -15,7 +7,13 @@
     font-style: normal;
 }
 
-
+@font-face {
+    font-family: 'MarrSans';
+    src: url('MarrSans-SemiBold.woff2') format('woff2'),
+        url('MarrSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
 
 // @font-face {
 //     font-family: 'Fakt Pro';

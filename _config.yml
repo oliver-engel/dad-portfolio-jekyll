@@ -29,7 +29,7 @@ sass:
 compress_html:
   clippings: all
 plugins:
-  - jekyll-sitemap  
+- jekyll-sitemap
 markdown: kramdown
 kramdown:
   auto_ids: false

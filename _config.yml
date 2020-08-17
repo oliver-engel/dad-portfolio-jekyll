@@ -28,6 +28,8 @@ sass:
   sass_dir: _sass
 compress_html:
   clippings: all
+plugins:
+  - jekyll-sitemap  
 markdown: kramdown
 kramdown:
   auto_ids: false

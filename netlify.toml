@@ -11,8 +11,8 @@ package = "netlify-plugin-image-optim"
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
-[[plugins]]
-package = "netlify-plugin-submit-sitemap"
+  [plugins.inputs]
+  buildDir = "public"
 
 # REDIRECT and HEADERS examples.
 # Uncomment to use. Directives in this file will ALWAYS override any identical

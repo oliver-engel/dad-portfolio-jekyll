@@ -1,5 +1,5 @@
 ---
-title: Jekyll Netlify Boilerplate
+title: Mark Engel
 timezone: UTC
 collections:
   posts:
@@ -16,10 +16,9 @@ defaults:
     layout: post
     section: post
 email: your-email@example.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml.
+description: The portfolio of California-based artist Mark Engel.
 baseurl: ''
-url: https://jekyll-netlify-boilerplate.netlify.com
+url: https://mark-engel.com
 permalink: "/blog/:title"
 section: true
 netlifycms: true

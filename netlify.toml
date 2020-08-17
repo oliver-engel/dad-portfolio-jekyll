@@ -1,6 +1,6 @@
 [build]
   command = "jekyll build"
-  publish = "_site"
+  publish = "public"
 
 [build.environment]
   JEKYLL_ENV = "production"
@@ -15,7 +15,7 @@ package = "@netlify/plugin-sitemap"
   buildDir = "public"
 
 [[plugins]]
-  package = "netlify-plugin-submit-sitemap"  
+  package = "netlify-plugin-submit-sitemap"
 
 # REDIRECT and HEADERS examples.
 # Uncomment to use. Directives in this file will ALWAYS override any identical
